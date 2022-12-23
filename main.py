@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 import asyncio
 
-PATH_TO_YOUR_TOKEN = "/home/golovachevrr/token.txt"
+PATH_TO_YOUR_TOKEN = "token.txt"
 file = open(PATH_TO_YOUR_TOKEN, "r")
 TOKEN = file.readline()
 file.close()
